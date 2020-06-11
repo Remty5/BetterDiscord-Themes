@@ -1,0 +1,221 @@
+//META{"name":"Ven's Green","description":"My private theme","author":"Mattis#6666","version":"1.0.0"}*//{}
+
+/** Change these two (rgb) colours below to change the whole theme's colours! */
+:root {
+  --main: 22, 22, 22;
+  --accent: 117, 241, 189;
+}
+
+/** Backgrounds */
+
+/* Main */
+div.messages-3amgkR {
+  background-color: rgba(var(--main), 0.6);
+}
+/* Member List */
+div.members-1998pB {
+  background-color: rgba(var(--main), 0.8);
+}
+
+/* Channel List */
+div.scroller-2wx7Hm,
+div#private-channels {
+  background-color: rgba(var(--main), 0.8);
+  border-right: 3px solid transparent;
+  border-image: linear-gradient(
+    to bottom,
+    rgba(var(--accent), 0.1),
+    rgba(var(--accent), 6),
+    rgba(var(--accent), 0.1)
+  );
+  border-image-slice: 1;
+}
+
+/* Channel Header */
+header.header-2o-2hj {
+  background-color: rgba(var(--main), 0.8);
+  margin-bottom: -1px;
+}
+
+/* Header */
+section.container-1r6BKw {
+  background-color: rgba(var(--main), 0.8) !important;
+  border-bottom: 3px solid transparent;
+  border-image: linear-gradient(
+    to right,
+    rgba(var(--accent), 0.1),
+    rgba(var(--accent), 6),
+    rgba(var(--accent), 0.1)
+  );
+  border-image-slice: 1;
+}
+
+/* User section */
+section.panels-j1Uci_ {
+  background-color: rgba(var(--main), 0.6) !important;
+  border-right: 1px solid transparent;
+  border-top: 1px solid transparent;
+  border-image: linear-gradient(
+    to right,
+    rgba(var(--accent), 0.1),
+    rgba(var(--accent), 1),
+    rgba(var(--accent), 0.1)
+  );
+  border-image-slice: 1;
+}
+
+/* Buttons */
+button.colorGreen-29iAKY,
+button.lookFilled-1Gx00P {
+  background-color: rgba(var(--accent), 0.5) !important;
+}
+
+/** Hide Useless Shit */
+
+/* Gift Button */
+button.buttonWrapper-1ZmCpA[aria-label="Send a gift"] {
+  display: none;
+}
+/* Info Button */
+div.iconWrapper-2OrFZ1[aria-label="Help"] {
+  display: none;
+}
+/* Remove Mute Button */
+div.iconWrapper-2OrFZ1[aria-label*="Mute"] {
+  display: none;
+}
+
+/* Little Bar next to top right hand corner Icons */
+div.children-19S4PO::after {
+  display: none;
+}
+
+/** Embeds */
+.embedWrapper-lXpS3L {
+  border: 1px solid rgba(var(--accent), 0.5);
+}
+
+/** Codeblocks */
+code.scrollbarGhostHairline-1mSOM1 {
+  border: 1px solid rgba(78, 253, 84, 0.4);
+}
+
+/** Avatars in Memberlist */
+
+/* Remove status icon */
+rect.pointerEvents-2zdfdO {
+  display: none;
+}
+/* Remove grey circle under status icon */
+.mask-1l8v16 foreignObject {
+  mask: none !important;
+}
+
+/* Fix avatar position */
+.mask-1l8v16 {
+  position: relative;
+  margin-left: 0.2px;
+}
+
+/* Avatar Border */
+div.wrapper-3t9DeA[aria-label*="Streaming"] {
+  border: 2px solid rgb(89, 54, 149);
+}
+div.wrapper-3t9DeA[aria-label*="Online"] {
+  border: 2px solid rgb(67, 181, 129);
+}
+div.wrapper-3t9DeA[aria-label*="Idle"] {
+  border: 2px solid rgb(250, 166, 26);
+}
+div.wrapper-3t9DeA[aria-label*="Do Not Disturb"] {
+  border: 2px solid rgb(240, 71, 71);
+}
+div.wrapper-3t9DeA {
+  border: 2px solid rgb(116, 127, 141);
+  border-radius: 2px;
+}
+
+/** Avatars in chat */
+img.avatar-1BDn8e {
+  border: 2px solid rgba(var(--accent), 0.6);
+}
+
+/** Selected channel */
+div.selected-37j_iU {
+  background-color: rgba(var(--accent), 0.4);
+}
+div.selected-37j_iU svg {
+  color: white;
+}
+
+/** Role Names */
+h2.membersGroup-v9BXpm {
+  padding-bottom: 20px;
+  text-align: center;
+  border-bottom: 3px solid transparent;
+  border-image: linear-gradient(
+    to right,
+    rgba(var(--accent), 0.1),
+    rgba(var(--accent), 1),
+    rgba(var(--accent), 0.1)
+  );
+  border-image-slice: 1;
+}
+
+/** Category Names */
+div.iconVisibility-1yaA_k[aria-expanded="true"] h2 {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(
+    to right,
+    rgba(var(--accent), 0.2),
+    rgba(var(--accent), 1),
+    rgba(var(--accent), 0.2)
+  );
+  border-image-slice: 1;
+}
+div.iconVisibility-1yaA_k[aria-expanded="false"] h2 {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.2);
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(
+    to right,
+    transparent,
+    rgba(var(--accent), 0.2),
+    rgba(var(--accent), 1),
+    rgba(var(--accent), 0.2),
+    transparent
+  );
+  border-image-slice: 1;
+}
+
+/** Chat input */
+form.form-2fGMdU {
+  background-color: rgba(var(--main), 0.4);
+  margin-top: 0;
+}
+form.form-2fGMdU::before {
+  display: none;
+}
+
+/** Emoji Picker */
+div.contentWrapper-2txmjs {
+  background-color: rgba(var(--main), 0.4);
+}
+
+div.categoryWrapper-UZ5YNj {
+  background-color: rgba(var(--main), 0.4);
+  color: rgba(255, 255, 255, 0.2);
+  border-bottom: 3px solid transparent;
+  border-image: linear-gradient(
+    to right,
+    rgba(var(--accent), 0.2),
+    rgba(var(--accent), 1),
+    rgba(var(--accent), 0.2)
+  );
+  border-image-slice: 1;
+}
+div.categoryWrapper-UZ5YNj span {
+  color: white;
+}
