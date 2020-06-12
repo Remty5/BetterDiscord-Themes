@@ -1,4 +1,4 @@
-//META{ "name": "Ven's Green", "version":"1.0.2", "author":"Mattis#6666", "authorId": "265560538937819137", "invite": "d8fxK5z", "description": "My private theme", "donate": "https://www.paypal.me/VenNeptury", "source": "https://github.com/Mattis6666/BetterDiscord-Themes/blob/master/VensGreen.theme.css", "website": "https://github.com/Mattis6666/BetterDiscord-Themes" }*//{}
+//META{ "name": "Ven's Green", "version":"1.0.3", "author":"Mattis#6666", "authorId": "265560538937819137", "invite": "d8fxK5z", "description": "My private theme", "donate": "https://www.paypal.me/VenNeptury", "source": "https://github.com/Mattis6666/BetterDiscord-Themes/blob/master/VensGreen.theme.css", "website": "https://github.com/Mattis6666/BetterDiscord-Themes" }*//{}
 
 /** Change these two (rgb) colours below to change the whole theme's colours! */
 :root {
@@ -80,8 +80,12 @@ button.buttonWrapper-1ZmCpA[aria-label="Send a gift"] {
 div.iconWrapper-2OrFZ1[aria-label="Help"] {
   display: none;
 }
-/* Remove Mute Button */
+/* Mute Button */
 div.iconWrapper-2OrFZ1[aria-label*="Mute"] {
+  display: none;
+}
+/* Server Discovery */
+.wrapper-1Rf91z .scroller-2FKFPG > .listItem-2P_4kh:last-child {
   display: none;
 }
 
@@ -219,4 +223,80 @@ div.categoryWrapper-UZ5YNj {
 }
 div.categoryWrapper-UZ5YNj span {
   color: white;
+}
+
+/** Settings Tab */
+
+/* Background */
+div.scroller-2FKFPG {
+  background-color: rgba(var(--main), 0.6);
+}
+
+/* Selected */
+div.ui-tab-bar-item.selected,
+div.item-PXvHYJ.da-selected {
+  background-color: rgba(var(--accent), 0.6) !important;
+}
+
+/* Subscriptions and Logout Button */
+div.item-PXvHYJ[style*="color"] {
+  color: rgba(var(--accent)) !important;
+}
+/* Subscriptions Button Selected*/
+div.item-PXvHYJ[style*="backg round-color: rgb(114"] {
+  color: white !important;
+  background-color: rgba(var(--accent), 0.6) !important;
+}
+
+/* Logout Button Hover */
+div.item-PXvHYJ:hover[style*="background-color: rgba(240"] {
+  color: white !important;
+  background-color: rgba(var(--accent), 0.6) !important;
+}
+
+/* Toggles */
+div.valueChecked-m-4IJZ:not([style*="color"]) {
+  background-color: rgb(var(--accent)) !important;
+}
+
+div.cardPrimaryEditable-3KtE4g[style*="border"],
+div.cardPrimaryEditable-3KtE4g[style*="border"] div.checkbox-1ix_J3 {
+  background-color: rgba(var(--main), 0.4) !important;
+  border: 1px solid rgb(var(--accent)) !important;
+}
+
+/** Guild Settings */
+
+/* Hover */
+div.item-1tOPte.focused-3afm-j {
+  background-color: rgba(var(--accent), 0.4);
+}
+
+/* Leave Server */
+div#guild-header-popout-leave {
+  color: rgba(var(--accent));
+}
+
+/** Add Friend Button */
+div.item-3HknzM[aria-label="Add Friend"] {
+  background-color: rgba(var(--accent), 0.6) !important;
+  color: white !important;
+}
+
+/** Home Icon */
+div.childWrapper-anI2G9 {
+  color: rgba(var(--accent));
+}
+div.childWrapper-anI2G9:hover {
+  color: white !;
+  background-color: rgba(var(--accent)) !important;
+}
+a.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
+  color: white !important;
+  background-color: rgba(var(--accent)) !important;
+}
+
+/** Invite Buttons */
+button.inviteRowButton-3opYo2 {
+  color: white !important;
 }
