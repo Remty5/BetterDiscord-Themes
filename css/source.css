@@ -124,7 +124,8 @@ img.avatar-1BDn8e {
 /** Avatars in Memberlist */
 
 /* Remove status icon */
-rect.pointerEvents-2zdfdO {
+.pointerEvents-2zdfdO,
+.cursorDefault-dsQJ1n {
   display: none;
 }
 /* Remove grey circle under status icon */
