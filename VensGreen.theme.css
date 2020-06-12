@@ -1,4 +1,4 @@
-//META{"name":"Ven's Green","description":"My private theme","author":"Mattis#6666","version":"1.0.0"}*//{}
+//META{"name":"Ven's Green","description":"My private theme","author":"Mattis#6666","version":"1.0.1"}*//{}
 
 /** Change these two (rgb) colours below to change the whole theme's colours! */
 :root {
@@ -141,19 +141,8 @@ img.avatar-1BDn8e {
 }
 
 /** Selected channel */
-.wrapper-1ucjTd:hover .content-3at_AU {
-  background-color: transparent;
-}
 .modeSelected-1zApJ_ .content-3at_AU,
 .modeSelected-1zApJ_:hover .content-3at_AU {
-  background-color: transparent;
-}
-
-.wrapper-1ucjTd:hover {
-  background-color: rgba(var(--accent), 0.3);
-}
-.modeSelected-1zApJ_,
-.modeSelected-1zApJ_:hover {
   background-color: rgba(var(--accent), 0.4);
 }
 div.selected-37j_iU svg {
