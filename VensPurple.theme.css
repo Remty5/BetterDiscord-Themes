@@ -1,4 +1,4 @@
-//META{"name":"Ven's Purple","description":"My private theme","author":"Mattis#6666","version":"1.0.1"}*//{}
+//META{"name":"Ven's Purple","description":"My private theme","author":"Mattis#6666","version":"1.0.2"}*//{}
 
 /** Change these two (rgb) colours below to change the whole theme's colours! */
 :root {
@@ -219,4 +219,9 @@ div.categoryWrapper-UZ5YNj {
 }
 div.categoryWrapper-UZ5YNj span {
   color: white;
+}
+
+/** Home button */
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
+  background-color: rgba(var(--accent), 0.8);
 }
