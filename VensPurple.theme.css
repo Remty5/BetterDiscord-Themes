@@ -141,7 +141,19 @@ img.avatar-1BDn8e {
 }
 
 /** Selected channel */
-div.selected-37j_iU {
+.wrapper-1ucjTd:hover .content-3at_AU {
+  background-color: transparent;
+}
+.modeSelected-1zApJ_ .content-3at_AU,
+.modeSelected-1zApJ_:hover .content-3at_AU {
+  background-color: transparent;
+}
+
+.wrapper-1ucjTd:hover {
+  background-color: rgba(var(--accent), 0.3);
+}
+.modeSelected-1zApJ_,
+.modeSelected-1zApJ_:hover {
   background-color: rgba(var(--accent), 0.4);
 }
 div.selected-37j_iU svg {
