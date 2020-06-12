@@ -1,4 +1,4 @@
-//META{ "name": "Ven's Purple", "version":"1.0.3", "author":"Mattis#6666", "authorId": "265560538937819137", "invite": "d8fxK5z", "description": "My private theme", "donate": "https://www.paypal.me/VenNeptury", "source": "https://github.com/Mattis6666/BetterDiscord-Themes/blob/master/VensPurple.theme.css", "website": "https://github.com/Mattis6666/BetterDiscord-Themes" }*//{}
+//META{ "name": "Ven's Purple", "version":"1.0.5", "author":"Mattis#6666", "authorId": "265560538937819137", "invite": "d8fxK5z", "description": "My private theme", "donate": "https://www.paypal.me/VenNeptury", "source": "https://github.com/Mattis6666/BetterDiscord-Themes/blob/master/VensPurple.theme.css", "website": "https://github.com/Mattis6666/BetterDiscord-Themes" }*//{}
 
 /** Change these two (rgb) colours below to change the whole theme's colours! */
 :root {
@@ -296,14 +296,14 @@ div.item-3HknzM[aria-label="Add Friend"] {
 }
 
 /** Home Icon */
-div.childWrapper-anI2G9 {
+.childWrapper-anI2G9 {
   color: rgba(var(--accent));
+  transition: color 0.15s ease-out;
 }
-div.childWrapper-anI2G9:hover {
+.childWrapper-anI2G9:hover {
   color: white !;
-  background-color: rgba(var(--accent)) !important;
 }
-a.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
   color: white !important;
   background-color: rgba(var(--accent)) !important;
 }
