@@ -125,7 +125,8 @@ img.avatar-1BDn8e {
 
 /* Remove status icon */
 .pointerEvents-2zdfdO,
-.cursorDefault-dsQJ1n {
+.cursorDefault-dsQJ1n,
+.wrapper-3t9DeA svg svg {
   display: none;
 }
 /* Remove grey circle under status icon */
