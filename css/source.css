@@ -279,8 +279,9 @@ div.cardPrimaryEditable-3KtE4g[style*="border"] div.checkbox-1ix_J3 {
 
 /** Guild Settings */
 
-/* Hover */
-div.item-1tOPte.focused-3afm-j {
+/* Hover & Click */
+.item-1tOPte.focused-3afm-j,
+.colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) {
   background-color: rgba(var(--accent), 0.4);
 }
 
