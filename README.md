@@ -20,7 +20,7 @@ This is my own self-made BetterDiscord theme. You can easily customize the colou
   - Now there will be a settings button next to my theme allowing you to change the colours with a colour wheel
 - Manual Solution:
 
-  - Open the file with your favorite text editor
+  - Open the file with your favourite text editor
   - Find the root at the top of the file and change the main and accent rgb colours. Make sure to use proper syntax and valid RGB colours!
 
 ## Screenshots
