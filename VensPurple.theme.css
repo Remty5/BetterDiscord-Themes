@@ -1,4 +1,4 @@
-//META{"name":"Ven's Purple","description":"My private theme","author":"Mattis#6666","version":"1.0.2"}*//{}
+//META{"name":"Ven's Purple","description":"My private theme","author":"Mattis#6666","version":"1.0.3"}*//{}
 
 /** Change these two (rgb) colours below to change the whole theme's colours! */
 :root {
@@ -220,8 +220,17 @@ div.categoryWrapper-UZ5YNj {
 div.categoryWrapper-UZ5YNj span {
   color: white;
 }
-
 /** Home button */
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
   background-color: rgba(var(--accent), 0.8);
+}
+
+/** Reactions */
+
+.reaction-1hd86g.reactionMe-wv5HKu {
+  background-color: rgba(var(--accent), 0.2);
+}
+.reactionMe-wv5HKu .reactionCount-2mvXRV,
+.reactionMe-wv5HKu:hover .reactionCount-2mvXRV {
+  color: rgb(var(--accent));
 }
