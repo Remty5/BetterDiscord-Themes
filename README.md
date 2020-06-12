@@ -1,6 +1,11 @@
 # Ven's Theme
 This is my own self-made BetterDiscord theme. You can easily customise the colours by changing the main and accent variable at the top of the file.
 
+## Download
+- Click on your desired theme
+- Click on raw
+- Right Click > Save
+
 ## Screenshots
 ![Basic](https://raw.githubusercontent.com/Mattis6666/BetterDiscord-Themes/master/Screenshots/Purple1.png)
 ![Embeds](https://raw.githubusercontent.com/Mattis6666/BetterDiscord-Themes/master/Screenshots/Purple2.png)
