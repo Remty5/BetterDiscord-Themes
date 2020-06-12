@@ -251,7 +251,7 @@ div.item-PXvHYJ.da-selected {
 }
 
 /* Subscriptions and Logout Button */
-div.item-PXvHYJ[style*="color"] {
+.sidebar-CFHs9e .item-PXvHYJ[style*="color"] {
   color: rgba(var(--accent)) !important;
 }
 /* Subscriptions Button Selected*/
