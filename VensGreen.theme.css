@@ -1,4 +1,4 @@
-//META{ "name": "Ven's Green", "version":"1.0.3", "author":"Mattis#6666", "authorId": "265560538937819137", "invite": "d8fxK5z", "description": "My private theme", "donate": "https://www.paypal.me/VenNeptury", "source": "https://github.com/Mattis6666/BetterDiscord-Themes/blob/master/VensGreen.theme.css", "website": "https://github.com/Mattis6666/BetterDiscord-Themes" }*//{}
+//META{ "name": "Ven's Green", "version":"1.0.5", "author":"Mattis#6666", "authorId": "265560538937819137", "invite": "d8fxK5z", "description": "My private theme", "donate": "https://www.paypal.me/VenNeptury", "source": "https://github.com/Mattis6666/BetterDiscord-Themes/blob/master/VensGreen.theme.css", "website": "https://github.com/Mattis6666/BetterDiscord-Themes" }*//{}
 
 /** Change these two (rgb) colours below to change the whole theme's colours! */
 :root {
@@ -94,14 +94,31 @@ div.children-19S4PO::after {
   display: none;
 }
 
-/** Embeds */
+/** Message features */
+
+/* Embeds */
 .embedWrapper-lXpS3L {
   border: 1px solid rgba(var(--accent), 0.5);
 }
 
-/** Codeblocks */
+/* Codeblocks */
 code.scrollbarGhostHairline-1mSOM1 {
   border: 1px solid rgba(78, 253, 84, 0.4);
+}
+
+/* Avatars in chat */
+img.avatar-1BDn8e {
+  border: 2px solid rgba(var(--accent), 0.6);
+}
+
+/* Reactions */
+
+.reaction-1hd86g.reactionMe-wv5HKu {
+  background-color: rgba(var(--accent), 0.2);
+}
+.reactionMe-wv5HKu .reactionCount-2mvXRV,
+.reactionMe-wv5HKu:hover .reactionCount-2mvXRV {
+  color: rgb(var(--accent));
 }
 
 /** Avatars in Memberlist */
@@ -137,11 +154,6 @@ div.wrapper-3t9DeA[aria-label*="Do Not Disturb"] {
 div.wrapper-3t9DeA {
   border: 2px solid rgb(116, 127, 141);
   border-radius: 2px;
-}
-
-/** Avatars in chat */
-img.avatar-1BDn8e {
-  border: 2px solid rgba(var(--accent), 0.6);
 }
 
 /** Selected channel */
@@ -239,7 +251,7 @@ div.item-PXvHYJ.da-selected {
 }
 
 /* Subscriptions and Logout Button */
-div.item-PXvHYJ[style*="color"] {
+.sidebar-CFHs9e .item-PXvHYJ[style*="color"] {
   color: rgba(var(--accent)) !important;
 }
 /* Subscriptions Button Selected*/
@@ -284,14 +296,14 @@ div.item-3HknzM[aria-label="Add Friend"] {
 }
 
 /** Home Icon */
-div.childWrapper-anI2G9 {
+.childWrapper-anI2G9 {
   color: rgba(var(--accent));
+  transition: color 0.15s ease-out;
 }
-div.childWrapper-anI2G9:hover {
+.childWrapper-anI2G9:hover {
   color: white !;
-  background-color: rgba(var(--accent)) !important;
 }
-a.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
   color: white !important;
   background-color: rgba(var(--accent)) !important;
 }
