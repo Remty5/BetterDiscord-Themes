@@ -247,9 +247,25 @@ div.scroller-2FKFPG {
 }
 
 /* Selected */
-div.ui-tab-bar-item.selected,
-div.item-PXvHYJ.da-selected {
-  background-color: rgba(var(--accent), 0.6) !important;
+.item-PXvHYJ:hover {
+  border-image: linear-gradient(
+    to right,
+    rgba(var(--accent), 0.3),
+    rgba(var(--accent), 0.8),
+    rgba(var(--accent), 0.3)
+  );
+  border-image-slice: 1;
+}
+.selected-3s45Ha.item-PXvHYJ,
+.item-PXvHYJ:active {
+  border-image: linear-gradient(
+    to right,
+    rgba(var(--accent), 0.3),
+    rgb(var(--accent)) 35%,
+    rgb(var(--accent)) 65%,
+    rgba(var(--accent), 0.3)
+  );
+  border-image-slice: 1;
 }
 
 /* Subscriptions and Logout Button */
