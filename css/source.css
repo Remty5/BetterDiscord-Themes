@@ -264,11 +264,10 @@ div.scroller-2FKFPG {
 }
 
 /* Subscriptions and Logout Button */
-.sidebar-CFHs9e .item-PXvHYJ[style*="color"] {
+.sidebar-CFHs9e .item-PXvHYJ:not(.da-themed) {
   color: rgba(var(--accent)) !important;
 }
-/* Subscriptions Button Selected*/
-div.item-PXvHYJ[style*="backg round-color: rgb(114"] {
+.item-PXvHYJ[style*="background"]:not(.da-themed) {
   color: white !important;
   background-color: rgba(var(--accent), 0.6) !important;
 }
