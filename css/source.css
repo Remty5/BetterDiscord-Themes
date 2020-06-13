@@ -353,7 +353,7 @@ button.inviteRowButton-3opYo2 {
 }
 
 /* Add / Message Button & Bot Badge Text */
-.button-38aScr.lookInverted-2D7oAl::not[.colorGreen-29iAKY], .bot-2Fta1w.botTagInvert-18-95s {
+.button-38aScr.lookInverted-2D7oAl::not(.colorGreen-29iAKY), .bot-2Fta1w.botTagInvert-18-95s {
     color: rgb(var(--accent));
 }
 
