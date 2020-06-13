@@ -84,10 +84,6 @@ div.iconWrapper-2OrFZ1[aria-label="Help"] {
 div.iconWrapper-2OrFZ1[aria-label*="Mute"] {
   display: none;
 }
-/* Server Discovery */
-.wrapper-1Rf91z .scroller-2FKFPG > .listItem-2P_4kh:last-child {
-  display: none;
-}
 
 /* Little Bar next to top right hand corner Icons */
 div.children-19S4PO::after {
@@ -341,4 +337,11 @@ div.item-3HknzM[aria-label="Add Friend"] {
 /** Invite Buttons */
 button.inviteRowButton-3opYo2 {
   color: white !important;
+}
+
+/** Discovery */
+
+/* Selected Button */
+.selectedCategoryItem-3X8ujp .itemInner-3gVXMG {
+  background-color: rgb(var(--accent)) !important;
 }
