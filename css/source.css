@@ -125,7 +125,8 @@ img.avatar-1BDn8e {
 
 /* Remove status icon */
 .pointerEvents-2zdfdO,
-.cursorDefault-dsQJ1n {
+.cursorDefault-dsQJ1n,
+.wrapper-3t9DeA svg svg {
   display: none;
 }
 /* Remove grey circle under status icon */
@@ -246,9 +247,25 @@ div.scroller-2FKFPG {
 }
 
 /* Selected */
-div.ui-tab-bar-item.selected,
-div.item-PXvHYJ.da-selected {
-  background-color: rgba(var(--accent), 0.6) !important;
+.item-PXvHYJ:hover {
+  border-image: linear-gradient(
+    to right,
+    rgba(var(--accent), 0.3),
+    rgba(var(--accent), 0.8),
+    rgba(var(--accent), 0.3)
+  );
+  border-image-slice: 1;
+}
+.selected-3s45Ha.item-PXvHYJ,
+.item-PXvHYJ:active {
+  border-image: linear-gradient(
+    to right,
+    rgba(var(--accent), 0.3),
+    rgb(var(--accent)) 35%,
+    rgb(var(--accent)) 65%,
+    rgba(var(--accent), 0.3)
+  );
+  border-image-slice: 1;
 }
 
 /* Subscriptions and Logout Button */
@@ -276,6 +293,17 @@ div.cardPrimaryEditable-3KtE4g[style*="border"],
 div.cardPrimaryEditable-3KtE4g[style*="border"] div.checkbox-1ix_J3 {
   background-color: rgba(var(--main), 0.4) !important;
   border: 1px solid rgb(var(--accent)) !important;
+}
+
+/* Text Boxes */
+.input-cIJ7To.focused-1mmYsC,
+.input-cIJ7To:focus {
+  border-color: rgb(var(--accent));
+}
+
+/* Sliders */
+.barFill-23-gu- {
+  background: rgb(var(--accent));
 }
 
 /** Guild Settings */
