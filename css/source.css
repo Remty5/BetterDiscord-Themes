@@ -272,12 +272,6 @@ div.scroller-2FKFPG {
   background-color: rgba(var(--accent), 0.6) !important;
 }
 
-/* Logout Button Hover */
-div.item-PXvHYJ:hover[style*="background-color: rgba(240"] {
-  color: white !important;
-  background-color: rgba(var(--accent), 0.6) !important;
-}
-
 /* Toggles */
 div.valueChecked-m-4IJZ:not([style*="color"]) {
   background-color: rgb(var(--accent)) !important;
@@ -344,29 +338,29 @@ button.inviteRowButton-3opYo2 {
   background-color: rgb(var(--accent)) !important;
 }
 
-
 /** Profiles */
 
 /* Playing background */
-.headerPlaying-j0WQBV, .topSectionPlaying-1J5E4n {
-    background-color: rgba(var(--accent), 0.4);
+.headerPlaying-j0WQBV,
+.topSectionPlaying-1J5E4n {
+  background-color: rgba(var(--accent), 0.4);
 }
 
 /* Add / Message Button & Bot Badge Text */
-.button-38aScr.lookInverted-2D7oAl::not(.colorGreen-29iAKY), .bot-2Fta1w.botTagInvert-18-95s {
-    color: rgb(var(--accent));
+.button-38aScr.lookInverted-2D7oAl::not(.colorGreen-29iAKY),
+.bot-2Fta1w.botTagInvert-18-95s {
+  color: rgb(var(--accent));
 }
-
 
 /* Spoiler Tags */
 .spoilerText-3p6IlD {
-    background-color: rgba(var(main), 0.8) !important;
+  background-color: rgba(var(main), 0.8) !important;
 }
 
 /** Server Create / Add Menu */
 
 /* THIS IS HORRIBLE PLS FIX THIS */
 .wrapper-2ZbzR9.theme-light.root-1gCeng.fullscreenOnMobile-1bD22y * {
-    background-color: rgba(var(--main), 0.6);
-    color: white;
+  background-color: rgba(var(--main), 0.6);
+  color: white;
 }
