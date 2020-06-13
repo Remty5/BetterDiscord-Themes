@@ -363,3 +363,11 @@ button.inviteRowButton-3opYo2 {
 .spoilerText-3p6IlD {
     background-color: rgba(var(main), 0.8) !important;
 }
+
+/** Server Create / Add Menu */
+
+/* THIS IS HORRIBLE PLS FIX THIS */
+.wrapper-2ZbzR9.theme-light.root-1gCeng.fullscreenOnMobile-1bD22y * {
+    background-color: rgba(var(--main), 0.6);
+    color: white;
+}
