@@ -279,6 +279,11 @@ div.cardPrimaryEditable-3KtE4g[style*="border"] div.checkbox-1ix_J3 {
   border: 1px solid rgb(var(--accent)) !important;
 }
 
+/* Sliders */
+.barFill-23-gu- {
+  background: rgb(var(--accent));
+}
+
 /** Guild Settings */
 
 /* Hover & Click */
