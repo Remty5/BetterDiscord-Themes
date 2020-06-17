@@ -152,6 +152,19 @@ div.wrapper-3t9DeA {
   border-radius: 2px;
 }
 
+/** Avatar popout */
+
+/* Replace "View profile" */
+.avatarHint-1qgaV3 {
+  display: none;
+}
+.avatarWrapper-3H_478 .avatar-VxgULZ {
+  transition: filter 0.15s ease-out;
+}
+.avatarWrapper-3H_478:hover .avatar-VxgULZ {
+  filter: brightness(75%);
+}
+
 /** Selected channel */
 .modeSelected-1zApJ_ .content-3at_AU,
 .modeSelected-1zApJ_:hover .content-3at_AU {
@@ -318,7 +331,7 @@ div.item-3HknzM[aria-label="Add Friend"] {
   transition: color 0.15s ease-out;
 }
 .childWrapper-anI2G9:hover {
-  color: white !;
+  color: white;
 }
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
   color: white !important;
